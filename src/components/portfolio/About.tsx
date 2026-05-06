@@ -14,17 +14,14 @@ export const About = () => {
       <div className="grid items-start gap-10 lg:grid-cols-[360px_1fr] lg:gap-16">
         <div className="relative mx-auto w-full max-w-sm">
           <div className="absolute -inset-4 rounded-3xl bg-accent-gradient opacity-20 blur-2xl" />
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-card">
-            <div className="grid h-full w-full place-items-center bg-gradient-to-br from-secondary to-card">
-              <div className="text-center">
-                <div className="mx-auto grid h-24 w-24 place-items-center rounded-full bg-accent-gradient font-display text-3xl font-bold text-primary-foreground shadow-glow">
-                  IP
-                </div>
-                <p className="mt-4 px-6 text-xs uppercase tracking-widest text-muted-foreground">
-                  Profile photo placeholder
-                </p>
-              </div>
-            </div>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-card transition-all duration-500 hover:shadow-glow/10 group">
+            <img
+              src="/profile.jpg"
+              alt="Isuri Pabasara"
+              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
           </div>
         </div>
 
