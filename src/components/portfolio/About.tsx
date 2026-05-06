@@ -16,7 +16,7 @@ export const About = () => {
           <div className="absolute -inset-4 rounded-3xl bg-accent-gradient opacity-20 blur-2xl" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-card transition-all duration-500 hover:shadow-glow/10 group">
             <img
-              src="/profile.jpg"
+              src="https://res.cloudinary.com/dtu0zojzx/image/upload/v1778082493/Professional_image_for_portfolio_202605061135_qmmedi.jpg"
               alt="Isuri Pabasara"
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               loading="lazy"
