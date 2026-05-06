@@ -87,7 +87,10 @@ export const Hero = () => {
               variant="outline"
               className="border-border bg-secondary/40 backdrop-blur hover:bg-secondary"
             >
-              <a href="/cv.pdf" download>
+              <a 
+                href="https://res.cloudinary.com/dtu0zojzx/image/upload/fl_attachment/v1778081503/Isuri_Pabasara_Lokupathirage_2_q1rw8e.pdf" 
+                download="Isuri_Pabasara_CV.pdf"
+              >
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </a>

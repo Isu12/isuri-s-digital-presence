@@ -58,7 +58,10 @@ export const Nav = () => {
 
         <div className="flex items-center gap-2">
           <Button asChild size="sm" className="hidden bg-accent-gradient text-primary-foreground hover:opacity-90 sm:inline-flex">
-            <a href="/cv.pdf" download>
+            <a 
+              href="https://res.cloudinary.com/dtu0zojzx/image/upload/fl_attachment/v1778081503/Isuri_Pabasara_Lokupathirage_2_q1rw8e.pdf" 
+              download="Isuri_Pabasara_CV.pdf"
+            >
               <Download className="mr-2 h-4 w-4" /> Download CV
             </a>
           </Button>
@@ -82,7 +85,10 @@ export const Nav = () => {
                   </a>
                 ))}
                 <Button asChild className="mt-4 bg-accent-gradient text-primary-foreground hover:opacity-90">
-                  <a href="/cv.pdf" download>
+                  <a 
+                    href="https://res.cloudinary.com/dtu0zojzx/image/upload/fl_attachment/v1778081503/Isuri_Pabasara_Lokupathirage_2_q1rw8e.pdf" 
+                    download="Isuri_Pabasara_CV.pdf"
+                  >
                     <Download className="mr-2 h-4 w-4" /> Download CV
                   </a>
                 </Button>
